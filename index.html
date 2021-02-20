@@ -5,8 +5,51 @@
     <link href="styles/styles.css" rel="stylesheet">
 </head>
 
-<body id="flex">
-    
-
-
+<body>
+    <div class="page">
+        <div class="flex-container">
+        <!--Navigation Bar-->    
+            <nav class="nav">
+                <ul class="nav-list-left">
+                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Store</a></li>
+                </ul>
+                <ul class="nav-list-right">
+                    <li class="nav-item"><a href="#" class="nav-link">Gmail</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Images</a></li>
+                    <li class="nav-item--apps">
+                        <svg class="app"><a href="#"><!--INSERT APP Icon--></a></svg>
+                    </li>
+                    <li class="nav-item--signin">
+                        <button class="nav-item-signin"><!--INSERT BUTTON CODE HERE--></button>
+                    </li>
+                </ul>
+            </nav>
+        <!--Main Page-->
+            <main class="main-content">
+                <img class="main-logo" src="images/googlelogo_color_272x92dp.png" alt="Google Logo">
+                <form class="main-search">
+                    <input type="text" name="search" id="search">
+                    <!--INSERT MAGINFYING GLASS AND MICROPHONE-->
+                </form>
+                <div class="main-submit">
+                    <button type="submit" class="search-buttons">Google Search</button>
+                    <button type="submit" class="search-buttons">I'm Feeling Lucky</button>
+                </div>
+            </main>
+        <!--Footer Bar-->
+            <footer class="footer">
+                <ul class="footer-list-left">
+                    <li class="footer-item"><a href="#" class="footer-link">Advertising</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Business</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">How Search works</a></li>
+                </ul>
+                <ul class="footer-list-right">
+                    <li class="footer-item"><a href="#" class="footer-link"></a>Privacy</li>
+                    <li class="footer-item"><a href="#" class="footer-link">Terms</a></li>
+                    <li class="footer-item"><a href="#" class="footer-link">Settingss</a></li>
+                </ul>
+            </footer>    
+        </div>
+    </div>
 </body>
