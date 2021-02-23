@@ -1,5 +1,5 @@
 body {
-    margin: 15px 20px;
+    padding: 15px 20px;
 }
 /*set flex to column */
 .flex-container {
@@ -106,3 +106,21 @@ form {
     font-family: Arial, Helvetica, sans-serif;
 }
 /*footer*/
+footer {
+    height: 45px;
+    background-color: #F2F2F2;   
+}
+footer ul {
+    margin-top: 10px;
+}
+.footer-list-left {
+    float: left;
+    margin-left: 20px;
+}
+.footer-list-right {
+    float: right;
+    margin-right: 20px;
+}
+.footer-item {
+    margin: 0px 8px;
+}
