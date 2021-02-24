@@ -39,6 +39,9 @@ li {
     vertical-align: middle;
     fill: #5f6368;
 }
+.nav-item-apps:hover {
+    fill: black;
+}
 a {
     text-decoration: none;
 }
@@ -94,6 +97,10 @@ form {
     border-color:#f2f2f2;
     margin: 20px;
 }
+#search:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
 #mic {
     height: 24px;
     width: auto;
@@ -114,6 +121,12 @@ form {
     border: white;
     color: rgb(95, 99, 104);
     font-family: Arial, Helvetica, sans-serif;
+}
+.main-submit button:hover {
+    color: black;
+    border:solid;
+    border-color: rgb(206,206,207);
+    border-width: .5px;
 }
 /*footer*/
 footer {
