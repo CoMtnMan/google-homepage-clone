@@ -1,5 +1,6 @@
 # google-homepage-clone
-Project ONE of The Odin Project is to create a clone of the Google.com homepage
+Project ONE of The Odin Project is to create a clone of the Google.com homepage  
+LIVE PREVIEW: CoMtnMan.github.io/google-homepage-clone
 
 This project is part of The Odin Project Foundations course. The goal is to recreate the Google Homepage, building on the skills learned thus far.  
 
